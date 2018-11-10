@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Alex's Blog
+title: Alex Ji's note
 subtitle:
 description:
 keywords:
@@ -72,6 +72,12 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
